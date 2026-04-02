@@ -1,0 +1,23 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#0B0D10"/>
+  <circle cx="980" cy="120" r="200" fill="#C68B59" fill-opacity="0.18"/>
+  <circle cx="220" cy="230" r="160" fill="#4C7DFF" fill-opacity="0.16"/>
+  <rect x="44" y="44" width="1112" height="672" rx="32" fill="url(#paint0_linear)" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="92" y="120" width="280" height="42" rx="21" fill="#C68B59" fill-opacity="0.18"/>
+  <text x="116" y="148" fill="#F8E0CC" font-family="Arial, sans-serif" font-size="26" letter-spacing="4">FULL STACK</text>
+  <text x="92" y="280" fill="#F3F4F6" font-family="Arial, sans-serif" font-size="72" font-weight="700">Insight Board</text>
+  <text x="92" y="352" fill="#A7B0BA" font-family="Arial, sans-serif" font-size="28">Dashboards operacionais, integrações e leitura de indicadores.</text>
+  <rect x="92" y="440" width="996" height="176" rx="30" fill="#10151B" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="134" y="486" width="260" height="84" rx="22" fill="rgba(76,125,255,0.14)"/>
+  <rect x="424" y="486" width="260" height="84" rx="22" fill="rgba(255,255,255,0.04)"/>
+  <rect x="714" y="486" width="332" height="84" rx="22" fill="rgba(198,139,89,0.12)"/>
+  <text x="168" y="538" fill="#E0E8FF" font-family="Arial, sans-serif" font-size="24">Next.js + React</text>
+  <text x="468" y="538" fill="#F3F4F6" font-family="Arial, sans-serif" font-size="24">Prisma + Dados</text>
+  <text x="748" y="538" fill="#F5DAC2" font-family="Arial, sans-serif" font-size="24">Uso orientado à decisão</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="44" y1="44" x2="1156" y2="716" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12161B"/>
+      <stop offset="1" stop-color="#0D1116"/>
+    </linearGradient>
+  </defs>
+</svg>

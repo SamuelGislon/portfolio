@@ -2,7 +2,7 @@
 
 Portfólio profissional desenvolvido com Next.js, React e TypeScript.
 
-## Acesse online
+## Site GitHub Pages
 
 - Site publicado: [https://samuelgislon.github.io/portfolio/](https://samuelgislon.github.io/portfolio/)
 

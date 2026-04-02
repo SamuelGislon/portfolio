@@ -55,7 +55,7 @@ export function CurriculoSection({
                     Foco atual
                   </p>
                   <p className="mt-3 text-base leading-7 text-[var(--foreground)]">
-                    4+ anos com Python e Next.js, experiência com APIs RESTful,
+                    5+ anos com Python e Next.js, experiência com APIs RESTful,
                     automações, integrações, bancos relacionais e Docker.
                   </p>
                 </div>

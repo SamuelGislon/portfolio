@@ -29,7 +29,7 @@ export function ApresentacaoSection({
             <Selo className="w-fit">Portfólio profissional</Selo>
             <h1 className="max-w-4xl font-display text-4xl leading-[0.9] tracking-tight text-[var(--foreground)] sm:text-5xl lg:text-[3.25rem]">
               Desenvolvedor Full Stack com{" "}
-              <span className="text-[var(--accent)]">4+ anos em Python e Next.js,</span>{" "}
+              <span className="text-[var(--accent)]">5+ anos em Python e Next.js,</span>{" "}
               <span className="text-[var(--accent-secondary)]">
                 foco em APIs, integrações
               </span>{" "}

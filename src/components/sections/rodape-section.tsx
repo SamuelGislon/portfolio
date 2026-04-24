@@ -22,9 +22,7 @@ export function RodapeSection({ perfil, links }: PropriedadesRodapeSection) {
             {perfil.cargo}
           </h2>
           <p className="text-sm leading-7 text-[var(--muted)]">
-            Estou disponível para oportunidades em desenvolvimento Python, Back-end e
-            Full Stack com Next.js. Se fizer sentido para a vaga, vale começar pelo
-            currículo e pelos projetos em destaque.
+            Aberto a novas oportunidades em back-end e projetos full stack.
           </p>
         </div>
         <div className="flex flex-wrap gap-3">

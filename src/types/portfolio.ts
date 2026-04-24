@@ -1,9 +1,9 @@
 export type CategoriaProjeto =
-  | "python"
-  | "react"
   | "backend"
   | "frontend"
-  | "fullstack";
+  | "fullstack"
+  | "produto"
+  | "academico";
 
 export type PerfilPortfolio = {
   nome: string;

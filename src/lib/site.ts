@@ -7,10 +7,9 @@ export const configuracaoSite = {
 };
 
 export const itensNavegacao = [
-  { rotulo: "Projetos/GitHub", href: "#github" },
+  { rotulo: "Projetos no GitHub", href: "#github" },
   { rotulo: "Currículo", href: "#resume" },
   { rotulo: "LinkedIn", href: "#linkedin" },
-  { rotulo: "Currículo Lattes", href: "#lattes" },
   { rotulo: "Jogos", href: "#games" },
 ];
 

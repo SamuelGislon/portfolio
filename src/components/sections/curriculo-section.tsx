@@ -25,8 +25,8 @@ export function CurriculoSection({
     <SecaoBase
       id="resume"
       rotulo="Currículo"
-      titulo="Currículo, LinkedIn e formação para análise rápida do meu perfil."
-      descricao="Aqui estão os principais pontos de apoio para recrutadores: currículo atualizado, LinkedIn e formação em Engenharia de Software pela UDESC."
+      titulo="Currículo, LinkedIn e formação para análise da minha experiência."
+      descricao="Aqui estão os principais pontos sobre minha trajetória profissional, LinkedIn e formação em Engenharia de Software pela UDESC."
     >
       <div className="grid gap-6 lg:grid-cols-[minmax(0,1.15fr)_minmax(280px,0.85fr)]">
         <EntradaSuave>
@@ -41,31 +41,32 @@ export function CurriculoSection({
                   Leitura complementar
                 </p>
                 <h3 className="font-display text-3xl leading-tight text-[var(--foreground)]">
-                  Resumo profissional em poucos minutos
+                  Resumo profissional
                 </h3>
+                <p className="text-sm leading-7 text-[var(--muted)]">
+                  Uma visão rápida das experiências e da formação que melhor 
+                  representam minha trajetoria profissional e acadêmica.
+                </p>
               </div>
-              <p className="text-sm leading-7 text-[var(--muted)]">
-                Se você estiver avaliando aderência para vagas de Python, Back-end ou
-                Full Stack, esta seção concentra meus principais sinais de experiência
-                e formação.
-              </p>
               <div className="space-y-4">
                 <div className="rounded-[24px] border border-[var(--line)] bg-[rgba(255,255,255,0.03)] p-5">
                   <p className="text-xs uppercase tracking-[0.24em] text-[var(--muted)]">
-                    Foco atual
+                    Experiência profissional
                   </p>
                   <p className="mt-3 text-base leading-7 text-[var(--foreground)]">
-                    5+ anos com Python e Next.js, experiência com APIs RESTful,
-                    automações, integrações, bancos relacionais e Docker.
+                    Mais de 5 anos de Experiência em empresas como a Senior Sistemas, IPM Sistemas 
+                    e Access Contact Center, sempre atuando com Python, FastAPI, APIs, 
+                    integrações, PostgreSQL, Docker e Next.js/React para frontend.
                   </p>
                 </div>
                 <div className="rounded-[24px] border border-[var(--line)] bg-[rgba(255,255,255,0.03)] p-5">
                   <p className="text-xs uppercase tracking-[0.24em] text-[var(--muted)]">
-                    Material disponível
+                    Formação acadêmica
                   </p>
                   <p className="mt-3 text-base leading-7 text-[var(--foreground)]">
-                    O currículo em PDF está disponível para leitura rápida nesta seção,
-                    com opção de abrir em nova aba ou baixar o arquivo.
+                    Graduando em Engenharia de Software pela UDESC, selecionado para 
+                    o Escritório Modelo e autor do UDESC Maker, projeto escolhido 
+                    para ser disponibilizado à comunidade.
                   </p>
                 </div>
               </div>
@@ -94,8 +95,8 @@ export function CurriculoSection({
                 Trajetória profissional e contexto complementar
               </h3>
               <p className="text-sm leading-7 text-[var(--muted)]">
-                No LinkedIn você encontra meu histórico profissional, tecnologias
-                utilizadas e contexto adicional sobre a evolução da carreira.
+                No LinkedIn é possível encontrar meu histórico profissional, tecnologias
+                utilizadas e contexto adicional sobre a evoluções na carreira.
               </p>
               <Botao asChild variant="secondary">
                 <a href={links.linkedin} target="_blank" rel="noreferrer">

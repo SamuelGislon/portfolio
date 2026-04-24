@@ -13,11 +13,11 @@ import { Separador } from "@/components/ui/separador";
 
 const opcoesCategoria: Array<{ rotulo: string; valor: CategoriaProjeto | "all" }> = [
   { rotulo: "Todos", valor: "all" },
-  { rotulo: "Python", valor: "python" },
-  { rotulo: "React", valor: "react" },
   { rotulo: "Back-end", valor: "backend" },
   { rotulo: "Front-end", valor: "frontend" },
   { rotulo: "Full Stack", valor: "fullstack" },
+  { rotulo: "Produto/Web", valor: "produto" },
+  { rotulo: "Acadêmico", valor: "academico" },
 ];
 
 type PropriedadesProjetosSection = {
@@ -70,33 +70,6 @@ export function ProjetosSection({ projetos }: PropriedadesProjetosSection) {
       }
     >
       <EntradaSuave className="space-y-8">
-        <div className="grid gap-4 rounded-[28px] border border-[var(--line)] bg-[var(--surface-1)] p-6 sm:grid-cols-3">
-          <div className="rounded-[22px] border border-[var(--line)] bg-[rgba(255,255,255,0.02)] p-5">
-            <p className="text-xs uppercase tracking-[0.26em] text-[var(--muted)]">
-              Prioridade 1
-            </p>
-            <p className="mt-3 text-base leading-7 text-[var(--foreground)]">
-              Problemas bem definidos e contexto técnico claro.
-            </p>
-          </div>
-          <div className="rounded-[22px] border border-[var(--line)] bg-[rgba(255,255,255,0.02)] p-5">
-            <p className="text-xs uppercase tracking-[0.26em] text-[var(--muted)]">
-              Prioridade 2
-            </p>
-            <p className="mt-3 text-base leading-7 text-[var(--foreground)]">
-              APIs, automações, integrações e evolução de sistemas web.
-            </p>
-          </div>
-          <div className="rounded-[22px] border border-[var(--line)] bg-[rgba(255,255,255,0.02)] p-5">
-            <p className="text-xs uppercase tracking-[0.26em] text-[var(--muted)]">
-              Prioridade 3
-            </p>
-            <p className="mt-3 text-base leading-7 text-[var(--foreground)]">
-              Interfaces e estudos que reforçam clareza, organização e experiência de uso.
-            </p>
-          </div>
-        </div>
-
         <AnimatePresence initial={false} mode="wait">
           {expandido ? (
             <motion.div
@@ -139,16 +112,6 @@ export function ProjetosSection({ projetos }: PropriedadesProjetosSection) {
               transition={{ duration: 0.35, ease: "easeOut" }}
               className="space-y-6"
             >
-              <div className="flex flex-wrap items-center justify-between gap-4">
-                <p className="text-sm leading-7 text-[var(--muted)]">
-                  Os três destaques abaixo concentram o que melhor representa meu
-                  momento profissional; ao expandir, você vê o restante da seleção por
-                  foco técnico.
-                </p>
-                <p className="text-xs uppercase tracking-[0.26em] text-[var(--accent-secondary)]">
-                  3 projetos em destaque
-                </p>
-              </div>
               <div className="grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
                 {projetosDestaque.map((projeto) => (
                   <CardProjeto key={projeto.id} projeto={projeto} />

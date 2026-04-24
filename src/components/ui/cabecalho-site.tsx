@@ -103,7 +103,7 @@ export function CabecalhoSite({
               </nav>
               <RodapePainel className="border-t border-[var(--line)] pt-6">
                 <p className="text-sm leading-7 text-[var(--muted)]">
-                  Aberto a oportunidades em Python, Back-end e Full Stack.
+                  Aberto a oportunidades em Back-end e Full Stack.
                 </p>
                 <Botao asChild variant="secondary">
                   <a href={hrefEmail}>Falar por e-mail</a>

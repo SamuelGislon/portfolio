@@ -10,11 +10,11 @@ import { Botao } from "@/components/ui/botao";
 import { Cartao, ConteudoCartao } from "@/components/ui/cartao";
 
 const rotulosCategoria: Record<ProjetoPortfolio["categoria"], string> = {
-  python: "Python",
-  react: "React",
   backend: "Back-end",
   frontend: "Front-end",
   fullstack: "Full Stack",
+  produto: "Produto/Web",
+  academico: "Projeto acadêmico",
 };
 
 type PropriedadesCardProjeto = {

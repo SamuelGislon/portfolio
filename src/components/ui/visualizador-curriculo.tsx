@@ -24,9 +24,6 @@ export function VisualizadorCurriculo({
             <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--accent-secondary)]">
               Currículo em PDF
             </p>
-            <h3 className="font-display text-2xl text-[var(--foreground)]">
-              Leitura rápida para recrutadores
-            </h3>
             <p className="max-w-2xl text-sm leading-7 text-[var(--muted)]">
               O PDF aparece embutido aqui para consulta rápida, mas também pode ser
               aberto em uma nova aba para leitura completa.

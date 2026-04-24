@@ -2,7 +2,7 @@ import type { PerfilPortfolio } from "@/types/portfolio";
 
 export const perfil: PerfilPortfolio = {
   nome: "Samuel Bruno de Oliveira Gislon",
-  cargo: "Desenvolvedor Full Stack | Python + Next.js",
+  cargo: "Desenvolvedor Full Stack",
   apresentacao:
     "Atuo há mais de 5 anos no desenvolvimento de APIs RESTful, automações, integrações e aplicações web com Python e Next.js. Tenho experiência com modernização de sistemas legados, bancos relacionais e Docker.",
   resumoCurto:
